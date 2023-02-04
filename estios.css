@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Kdam+Thmor+Pro&family=Macondo&family=Mukta:wght@700&family=Open+Sans:wght@300&family=Oswald&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&display=swap');
+
+.navbar{
+    background-color: springgreen;
+}
+
+.navbar-brand{
+    color: #ff0;
+    text-shadow: 0 0 5px #000;
+}
+.navbar-brand::before{
+    content: " 😎 ";
+}
+
+.nav-link{
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    color: #ff0;
+}
+.navbar-toggler-icon{
+    box-shadow: 0 0 5px #000;
+}
+.jumbotron{
+    background-image: linear-gradient(rgba(252, 3, 227, 0.5),rgba(0, 0, 0, 0.5)), url(img/vegetables-g2f51ae14f_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: #ff0;
+    text-shadow: 0 0 5px #000;
+    border-radius: 0;
+    margin: 0;
+}
+.jumbotron p{
+    color: #fff;
+}
+.jumbotron p::first-line{
+    color: springgreen;
+}
+.jumbotron button:active{
+    background-color: orange !important;
+}
+p::selection{
+    background-color: coral;
+}
+h2{
+    background-color: springgreen;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.nleft{
+    background-image: url(img/vegetables-g2f51ae14f_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.nright h3{
+    text-align: center;
+    color: springgreen;
+    text-shadow: 0 0 5px rgb(58, 250, 0);
+}
+
+.item{
+    height: 250px;
+    border:  2px solid #000;
+    filter: grayscale(100%);
+    transition: 1.1s;
+}
+.item:hover{
+    filter: grayscale(0%);
+}
+.item1{
+    background-image: url(img/blackberries-gccda53105_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background-image: url(img/blueberries-g908c57b3c_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3{
+    background-image: url(img/carrots-g09684076b_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    background-image: url(img/cherries-g17c80d496_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item5{
+    background-image: url(img/onions-g7702794c0_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item6{
+    background-image: url(img/oranges-gc3567613f_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item7{
+    background-image: url(img/potatoes-g7f8ce661e_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item8{
+    background-image: url(img/strawberry-g0ffa2143b_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+}
+footer i{
+    letter-spacing: 10px;
+    font-size: 50px;
+    color: springgreen;
+}
+footer p::first-letter{
+    color: springgreen;
+}
+footer i:hover{
+    text-shadow: 0 0 5px #fff;
+    transform: scale(0.9);
+}
